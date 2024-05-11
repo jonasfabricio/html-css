@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div{
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+}
+
+div > p{
+    display: none;    
+}
+
+div:hover > p{
+    display: block;
+}
+ 
+div:hover{
+    background-color: lightgoldenrodyellow;
+}

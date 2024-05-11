@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+* {
+    min-width: 325px;
+} /*torna todas as tags para esse padrão*/
+
+body {
+    margin: 0;
+    background-color: rgb(107, 235, 160);
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(107, 235, 156), rgb(45, 95, 64));
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+    font-weight: normal;
+}
+
+header > h2{
+    margin-bottom: 0px;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425);
+}
+
+nav {
+    text-align: left;
+    background-color: rgb(28, 59, 40);
+    padding: 10px;
+    font-weight: bold;
+    padding-top: 10px;
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.432);
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(180, 243, 204);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: rgb(107, 235, 156);
+    color: rgb(44, 87, 44);
+    transition-duration: .5s;
+}
+
+main {
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 800px;
+    min-width: 325px;
+    box-shadow: 1px 1px 3px;
+    text-indent: 8px;
+}
+
+main strong {
+    font-weight: bolder;
+    color: rgb(43, 97, 65);
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(43, 97, 65);
+    background-color: rgb(159, 235, 188);
+    padding: 1px 6px;
+}
+
+main a.externo::after{
+    content: "🔗"
+}
+
+main a:hover {
+    text-decoration: underline;
+    background-color: rgb(107, 235, 156);
+    color: rgb(69, 167, 110);
+}
+article > h1{
+    font-family: IDroid;
+    font-size: 1.8em;
+    font-weight: normal;    
+    background-image: linear-gradient(to right,  rgb(159, 235, 188), white);
+    color: green;
+    text-indent: 8px;
+}
+
+article > h2 {
+    font-family: IDroid;
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right,  rgb(159, 235, 188), white);
+    color: green;
+    text-indent: 8px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+div.video {
+    background-color: rgb(44, 87, 44);
+    margin: 0 -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: rgba(107, 235, 160, 0.411);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+aside > h3{
+    background-color: rgb(43, 97, 65);
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0 -10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.253);
+    border-radius: 10px 10px 0 0;
+}
+
+footer {
+    background-color: rgb(43, 97, 65);
+    text-align: center;
+    color: white;
+}

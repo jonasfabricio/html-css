@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+    background-color: rgb(37, 37, 37);
+    margin: 0px;
+}
+
+nav {
+    background-color: lightgrey;
+    margin: 10px 5px;
+    padding: 3px;
+}
+
+header {
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1em;
+    font-size: larger;
+}
+
+a:hover{
+    color: rgb(69, 86, 92);
+    text-decoration: underline rgb(69, 86, 92);
+}
+
+main {
+    background-color: white;
+    color: black;
+    text-align: justify;
+    padding: 6px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(97, 121, 129);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+aside {
+    font-style: italic;
+}
+
+article {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 7px 0px;
+    box-shadow: 2px 2px 4px;
+}
+
+article > aside{
+    background-color: rgb(151, 151, 151);
+    margin: 0 3em;
+    box-shadow: 1px 1px 3px;
+}
+
+#assuntos {
+    font-size: x-large; 
+    text-shadow: 0.1px 0.1px 10px;
+}

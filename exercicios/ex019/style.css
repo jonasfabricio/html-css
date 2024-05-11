@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+    background-image:linear-gradient(to right, cyan, rgb(149, 243, 243));
+}
+h1{
+    color: rgb(1, 153, 153);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgba(0, 119, 119, 0.993);
+    color: white;
+}
+
+h2{
+    color: rgb(0, 173, 173);
+}
+
+p{
+    text-align: justify;
+}
+
+.basico{
+    color: rgb(91, 153, 63);
+}
+
+.intermediario{
+    color: rgb(152, 153, 63);
+}
+
+.avancado{
+    color: rgb(153, 63, 63);
+}
