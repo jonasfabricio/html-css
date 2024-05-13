@@ -10,3 +10,25 @@ header a {
     text-decoration: none;
     color: aliceblue;
 }
+
+section{
+    font-family: cursive;
+}
+
+.normal {
+    background-color: white;
+}
+
+.com-foto{
+    background-color: rgba(0, 0, 0, 0.212);
+    padding: 5px;
+    width: 13em;
+}
+
+#cf1 {
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
