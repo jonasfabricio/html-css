@@ -2,13 +2,18 @@
 
 body {
     margin: 0px;
+    min-height: 100vh;
+    background-color: rgb(155, 155, 155);
 }
+
+
 
 header {
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
+    font-variant: small-caps;
 }
 
 header > h1 {
@@ -20,39 +25,36 @@ header a {
     color: aliceblue;
 }
 
-div#cf1 {
-    height: 55vh;
-    background-image: url(imagens/background001.jpg);
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-left: 3%;
-}
-
-div#cf2 {
-    height: 55vh;
-    background-image: url(imagens/background002.jpg);
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-left: 3%;
-}
-
-section{
+section {
     font-family: cursive;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: white
 }
 
 .normal {
     background-color: white;
 }
 
-.com-foto{
+#cf1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cf2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.com-foto > p{
+    background-color: rgba(0, 0, 0, 0.379);
     color: white;
-    background-color: rgba(0, 0, 0, 0.212);
     padding: 5px;
-    width: 40%;
+
 }
 
 footer {
