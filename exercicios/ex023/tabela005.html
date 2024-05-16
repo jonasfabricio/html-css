@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colunas</title>
+    <style>
+                                body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 30px;
+        }
+
+        .nome {
+            background-color: aqua;
+        }
+
+        .idade {
+            background-color: blueviolet;
+        }
+
+        .profissao {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="idade" span="2">
+            <col class="profissao">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Jonas</td>
+            <td>15</td>
+            <td>M</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>29</td>
+            <td>F</td>
+            <td>Programador(a)</td>
+        </tr>
+    </table>
+</body>
+</html>
